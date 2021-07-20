@@ -97,7 +97,7 @@ c:Toggle("Buy Egg",function(bool)
     end 
 end)
 
-d:Butto("Cash Farm", function(bool)
+d:Buttom("Cash Farm", function(bool)
 	getgenv().MissionType = bool
 	loadstring(game:HttpGet(("https://pastebin.com/raw/HGvTt4Ef")))()
 end)
